@@ -369,7 +369,7 @@ public class homework {
 
         try {
 
-            BufferedReader br = new BufferedReader(new FileReader(new File("/Users/rishabkumar/My Own/Coding/homworkMinimax/src/input.txt")));
+            BufferedReader br = new BufferedReader(new FileReader(new File("input.txt")));
             StringBuilder temp = new StringBuilder();
             String line;
             String finalinput;
@@ -419,7 +419,7 @@ public class homework {
     public void giveOutput(ArrayList<ArrayList<Character>> finalBoard, Location l) {
 
         try {
-            File f = new File("/Users/rishabkumar/My Own/Coding/homworkMinimax/src/output.txt");
+            File f = new File("output.txt");
             if (f.exists()) {
                 f.delete();
             } else {
