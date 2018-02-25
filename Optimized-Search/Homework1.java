@@ -428,7 +428,7 @@ public class Homework1 {
 
         try {
 
-            BufferedReader br = new BufferedReader(new FileReader(new File("/Users/rishabkumar/My Own/Coding/homework/src/input.txt")));
+            BufferedReader br = new BufferedReader(new FileReader(new File("input.txt")));
             StringBuilder temp = new StringBuilder();
             String line;
             String finalinput;
@@ -484,7 +484,7 @@ public class Homework1 {
     public void giveOutput(ArrayList<ArrayList<Integer>> ar, int flag) {     //gives the output after getting result for both bfs and dfs
 
         try {
-            File f = new File("/Users/rishabkumar/My Own/Coding/homework/src/output.txt");
+            File f = new File("output.txt");
             if (f.exists()) {
                 f.delete();
             } else {
